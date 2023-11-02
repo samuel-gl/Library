@@ -27,10 +27,10 @@ public class JpaGuardadoLibreria {
         EditorialService es = new EditorialService();
         BookService bs = new BookService();
         
-        bs.getBooks();
         
-        //es.deleteEditorial(401);
-        //es.getEditorials();
+        bs.getBooks();
+        es.getEditorials();
+        as.getAuthors();
 
 
     }
